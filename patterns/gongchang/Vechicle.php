@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * 交通工具接口
+ *
+ */
 interface Vechicle
 {
 	public function drive();

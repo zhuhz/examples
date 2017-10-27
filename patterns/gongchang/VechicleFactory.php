@@ -1,7 +1,9 @@
 <?php 
-
 include_once 'Vechicle.php';
-
+/**
+ * 工厂类
+ *
+ */
 class VechicleFactory
 {
 	public static function build($className = null)

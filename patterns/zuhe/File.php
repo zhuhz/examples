@@ -1,6 +1,5 @@
 <?php
 include_once 'Filesystem.php';
-
 /**
  * 独立对象：文本文件类
  *
