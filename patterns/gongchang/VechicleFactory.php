@@ -1,5 +1,6 @@
 <?php 
 include_once 'Vechicle.php';
+
 /**
  * 工厂类
  *
