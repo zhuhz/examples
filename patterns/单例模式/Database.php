@@ -1,7 +1,11 @@
 <?php
+/**
+ * 数据库单例类
+ *
+ */
 class Database
 {
-	// 声明 $instance为私有静态类型，用户保存当前类实例化后的对象
+	// 声明 $instance为私有静态类型，用于保存当前类实例化后的对象
 	private static $instance = null;
 	// 数据库连接句柄
 	private $db = null;

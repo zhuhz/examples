@@ -2,7 +2,7 @@
 include_once 'Vechicle.php';
 
 /**
- * 工厂类
+ * 简单工厂类
  *
  */
 class VechicleFactory

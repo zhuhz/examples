@@ -9,8 +9,8 @@ class Dir extends Filesystem
 {
 	private $filesystems = [];
 	
-	// 组合对象必须实现添加方法。因为形参为 Filesystem类型，
-	// 所以目录和文件都能添加
+	// 组合对象必须实现添加方法
+	// 因为形参为 Filesystem类型，所以目录和文件都能添加。
 	public function add(Filesystem $filesystem)
 	{
 		$key = array_search($filesystem, $this->filesystems);
