@@ -50,7 +50,6 @@ class WechatAdapter implements PayAdapter
 	}
 }
 
-
 //$alipay = new AlipayAdapter();
 //$alipay->pay();
 
