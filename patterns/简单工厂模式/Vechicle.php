@@ -12,7 +12,7 @@ class Car implements Vechicle
 {
 	public function drive()
 	{
-		echo 'Car::drive<br/>';
+		echo 'Car::drive';
 	}
 }
 
@@ -20,6 +20,6 @@ class Ship implements Vechicle
 {
 	public function drive()
 	{
-		echo 'Ship::drive<br/>';
+		echo 'Ship::drive';
 	}
 }

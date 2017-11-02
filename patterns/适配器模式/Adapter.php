@@ -1,4 +1,7 @@
 <?php
+include 'Alipay.php';
+include 'WechatPay.php';
+
 /**
  * 适配器接口，所有的支付适配器都需要实现这个接口。
  * 不管第三方支付实现方式如何，对于客户端来说，都
@@ -14,12 +17,7 @@ interface PayAdapter
  *
  */
 class AlipayAdapter implements PayAdapter
-{
-	public function __construct()
-	{
-		include_once 'Alipay.php';
-	}
-	
+{	
 	public function pay()
 	{
 		// 实例化 Alipay类，并用 Alipay的方法实现支付
@@ -33,12 +31,7 @@ class AlipayAdapter implements PayAdapter
  *
  */
 class WechatAdapter implements PayAdapter
-{
-	public function __construct()
-	{
-		include_once 'WechatPay.php';
-	}	
-	
+{		
 	public function pay()
 	{
 		// 实例化 WechatPay类，并用 WechatPay的方法实现支付
