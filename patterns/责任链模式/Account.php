@@ -63,7 +63,7 @@ class Bitcoin extends Account
 	}	
 }
 
-// 通过定义的链接（即 Bank, Paypal, Bitcoin）形成责任链
+// 通过定义的链接账户（即 Bank, Paypal, Bitcoin）形成责任链
 
 $bank = new Bank(100);
 $paypal = new Paypal(200);
