@@ -8,7 +8,7 @@ include 'RadioStation.php';
  * 迭代器
  *
  */
-class StationList 
+class StationList implements Countable, Iterator
 {
 	protected $stations = [];
 

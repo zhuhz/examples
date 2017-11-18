@@ -1,6 +1,6 @@
 <?php
 /**
- * 动物动作接口
+ * 访问者接口
  *
  */
 interface AnimalOperation

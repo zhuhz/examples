@@ -9,7 +9,7 @@ interface OutputStrategy
 }
 
 /**
- * 策略类1
+ * 策略实现类 1
  * @return 返回序列化字符串
  *
  */
@@ -22,7 +22,7 @@ class SerializeStrategy implements OutputStrategy
 }
 
 /**
- * 策略类2
+ * 策略实现类 2
  * @return 返回 JSON编码后的字符串
  *
  */
@@ -35,7 +35,7 @@ class JsonStrategy implements OutputStrategy
 }
 
 /**
- * 策略类3
+ * 策略实现类 3
  * @return 直接返回数组
  *
  */
