@@ -1,5 +1,5 @@
 <?php
-include_once 'Strategy.php';
+include_once 'OutputStrategy.php';
 
 /**
  * 环境角色类
