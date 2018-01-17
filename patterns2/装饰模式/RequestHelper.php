@@ -83,11 +83,11 @@ $process->process(new RequestHelper());
 
 /*
  * 执行代码输出结果：
- * 
+ * --------------------------------------------------
  * AuthenticateRequest: authenticating request
  * StructureRequest: structuring request data
  * LogRequest: logging request
  * MainProcess: doing something useful with request
- * 
+ * --------------------------------------------------
  */
 
